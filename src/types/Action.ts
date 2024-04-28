@@ -5,11 +5,11 @@ type Action =
     }
   | {
       type: "TOGGLE_TODO";
-      payload: { id: number };
+      payload: { id: string };
     }
   | {
       type: "DELETE_TODO";
-      payload: { id: number };
+      payload: { id: string };
     };
 
 export default Action;
